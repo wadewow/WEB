@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+.nav:link,.nav:visited{
+    text-decoration: none;
+    line-height: 50px;
+    padding: 17px 7px 17px;
+    font-family:'Proxima Nova', 'Myriad Pro', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #2e2e2e;
+}
+.nav:hover,.nav:active{
+    border-bottom:2px solid #4c4c4c;
+    /*设置border属性   宽度 style 颜色*/
+}
+.container{
+    width: 960px;
+    margin:auto;
+    /*background-color: aquamarine;*/
+}
+.header-table,.footer-table{
+    width: 100%;
+}
+.header-text{
+    font-weight: bold;
+    font-size: 14px;
+    color: rgb(167, 167, 168);
+    font-family: 'Proxima Nova', 'Myriad Pro', Arial, Helvetica, sans-serif;
+}
+.heaher-right{
+    padding: 64px 0px;
+    float: right;
+}
+ul{
+    list-style-type: none;
+    /*overflow: hidden;*/
+    /*给浮动元素的父元素加overflow：hidden可以清楚浮动，原理待研究*/
+}
+li{
+    display: inline;
+    padding: 0 22px 0 0;
+    /*<li>元素默认是块级元素，在这里，我们去除了每个列表项前后的换行，以便让它们在一行中显示*/
+}
+.background-picture{
+    background-image: url("http://od4phhdfp.bkt.clouddn.com/banner-wrap-short.jpg");
+    height: 268px;
+}
+.banner-image{
+    text-align: center;
+    vertical-align: middle;
+    padding:47px;
+    padding-left: 0px;
+}
+.content{
+    padding: 50px 0;
+    min-height: 400px;
+}
+h2{
+    font-family: 'Proxima Nova', 'Myriad Pro', Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    line-height: 1.5;
+}
+.paragraph{
+    font-size: small;
+    line-height: 1.5;
+    padding: .5em 0;
+}
+footer .paragraph{
+    color: pink;
+}
+footer{
+    background-color: #323232 ;
+    min-height: 200px;
+}
+.footer-wrap{
+    padding: 40px 0 50px;
+}
+.footer-href{
+    text-align: right;
+    text-decoration: none;
+    color: pink;
+}
