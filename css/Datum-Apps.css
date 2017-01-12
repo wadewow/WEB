@@ -74,6 +74,7 @@ footer{
     min-height: 200px;
 }
 .footer-wrap{
+    background: url("http://www.datumapps.com/files/theme/footer-arrow.png?168351") center top no-repeat;
     padding: 40px 0 50px;
 }
 .footer-href{
